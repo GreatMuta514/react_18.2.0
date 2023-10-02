@@ -13,7 +13,6 @@ Docker for Mac
 ### 手順1
 アプリケーションの直下に.envファイルを作成。以下をコピーして、環境変数を設定
 ```
-APP_NAME=アプリ名
 APP_PATH=アプリの絶対パス
 IMAGE_NAME=イメージ名
 CONTAINER_NAME=コンテナ名

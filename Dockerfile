@@ -1,6 +1,4 @@
 FROM node:lts
-WORKDIR /${APP_NAME}
-COPY package*.json ./
+COPY . /
 RUN npm install
-COPY . .
 CMD [ "npm", "start" ]
